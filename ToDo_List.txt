@@ -1,0 +1,3 @@
+Adicionar Label e  Campo para : Tempo Ciclo, Tempo Pausa, Ciclos para Grande Pausa, Tempo Grande Pausa.
+Fazer contator regresivo(em formato de rologia analogico provavelmente) para: Atividade, Pequena Pausa
+No lugar do contador regresivo para grande pausa utilizar as imagens
