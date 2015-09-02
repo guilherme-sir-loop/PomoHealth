@@ -1,3 +1,4 @@
 Adicionar Label e  Campo para : Tempo Ciclo, Tempo Pausa, Ciclos para Grande Pausa, Tempo Grande Pausa.
+Adicionar bot√£o Iniciar
 Fazer contator regresivo(em formato de rologia analogico provavelmente, embasado no com.google.android.deskclock) para: Atividade, Pequena Pausa
-No lugar do contador regresivo para grande pausa utilizar as imagens das atividades, e entre as mesmas colocar opÁ„o para voltar, continuar e uma breve descriÁ„o do exercicio.
+No lugar do contador regresivo para grande pausa utilizar as imagens das atividades, e entre as mesmas colocar op√ß√£o para voltar, continuar e uma breve descri√ß√£o do exercicio.
