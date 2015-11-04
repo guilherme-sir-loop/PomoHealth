@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PomoHealth</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblciclotime">Ciclo</string>
+    <string name="lblpausaciclo"> Tempo Pausa Menor</string>
+    <string name="lblCiclesBeforePause" />
+    <string name="lblCiclesBfrPause">Ciclos antes da pausa maior:</string>
+    <string name="lblGreatPause">Tempo Pausa Grande</string>
+    <string name="btnBeginning">Iniciar</string>
+</resources>

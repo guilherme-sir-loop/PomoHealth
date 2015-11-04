@@ -1,3 +1,6 @@
-Adicionar Label e  Campo para : Tempo Ciclo, Tempo Pausa, Ciclos para Grande Pausa, Tempo Grande Pausa.
+Instânciar dos itens de interface adicionados
+Alinhar de forma correta os itens
+Utilizar o coundown timer com um toque de alarme no final e um aviso na tela
 Fazer contator regresivo(em formato de rologia analogico provavelmente, embasado no com.google.android.deskclock) para: Atividade, Pequena Pausa
 No lugar do contador regresivo para grande pausa utilizar as imagens das atividades, e entre as mesmas colocar opção para voltar, continuar e uma breve descrição do exercicio.
+Utilizar imagens do workrave

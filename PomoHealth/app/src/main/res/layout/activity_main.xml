@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/id">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblciclotime"
+        android:id="@+id/lblcicletime"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtCicleTime"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblpausaciclo"
+        android:id="@+id/lblPauseCicle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtCicleTime" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtPauseCicle"
+        android:layout_below="@+id/txtCicleTime"
+        android:layout_toRightOf="@+id/lblPauseCicle"
+        android:layout_toEndOf="@+id/lblPauseCicle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCiclesBfrPause"
+        android:id="@+id/lblCiclesBfrPause"
+        android:layout_toLeftOf="@+id/txtCicleTime"
+        android:layout_toStartOf="@+id/txtCicleTime" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/txtCiclesBfrPause"
+        android:layout_toRightOf="@+id/lblGreatPause"
+        android:layout_toEndOf="@+id/lblGreatPause"
+        android:layout_below="@+id/txtPauseCicle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblGreatPause"
+        android:id="@+id/lblGreatPause"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPauseCicle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/txtGreatPause"
+        android:layout_toRightOf="@+id/lblGreatPause"
+        android:layout_toEndOf="@+id/lblGreatPause"
+        android:layout_below="@+id/txtPauseCicle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBeginning"
+        android:id="@+id/button"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
